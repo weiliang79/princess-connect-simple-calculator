@@ -5,8 +5,9 @@ import Negotiator from 'negotiator';
 let locales = ['en', 'tw'];
 
 function getLocale(request: NextRequest) {
-      let headers = request.headers;
-      let languages = new Negotiator({headers: {"accept-language": headers.get('accept-language') ?? undefined}}).languages();
+      let headers: Record<string, string> = {};
+      request.headers.forEach((value, key) => (headers[key] = value));
+      let languages = new Negotiator({headers: headers}).languages();
       let defaultLocale = 'en';
       
       return match(languages, locales, defaultLocale);
