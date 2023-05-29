@@ -1,0 +1,24 @@
+{
+      "page_title": "公主連結Re: Dive簡易計算器",
+      "star_upgrade_calculator": {
+            "title": "升星計算機",
+            "star": "星",
+            "current_star": "當前星級",
+            "next_star": "目標星級",
+            "stone_to_buy": "花費的女神石",
+            "shard_left": "現有的記憶碎片",
+            "memory_shard_result": "需要的記憶碎片",
+            "divine_amulet_result": "需要的女神石"
+      },
+      "weapon_upgrade_calculator": {
+            "title": "專武升級計算機",
+            "level": "等級",
+            "current_level": "當前等級",
+            "next_level": "目標等級",
+            "stone_to_buy": "花費的女神石",
+            "shard_left": "現有的記憶碎片",
+            "memory_shard_result": "需要的記憶碎片",
+            "divine_amulet_result": "需要的女神石",
+            "princess_heart_result": "需要的公主之心"
+      }
+}

@@ -1,0 +1,24 @@
+{
+      "page_title": "Princess Connect Re: Dive Simple Calculator",
+      "star_upgrade_calculator": {
+            "title": "Star Upgrade Calculator",
+            "star": "Star",
+            "current_star": "Current Star",
+            "next_star": "Next Star",
+            "stone_to_buy": "Cost of Divine Amulet",
+            "shard_left": "Remaining of Memory Shard",
+            "memory_shard_result": "Needs of Memory Shards",
+            "divine_amulet_result": "Needs of Divine Amulet"
+      },
+      "weapon_upgrade_calculator": {
+            "title": "Unique Equipment Upgrade Calculator",
+            "level": "Level",
+            "current_level": "Current Level",
+            "next_level": "Next Level",
+            "stone_to_buy": "Cost of Divine Amulet",
+            "shard_left": "Remaining of Memory Shard",
+            "memory_shard_result": "Needs of Memory Shards",
+            "divine_amulet_result": "Needs of Divine Amulet",
+            "princess_heart_result": "Needs of Princess Hearts"
+      }
+}
