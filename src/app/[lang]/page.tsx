@@ -3,6 +3,8 @@ import WeaponUpgradeCalculator from "@/components/WeaponUpgradeCalculator";
 import { fetchStarUpgradeData, fetchWeaponUpgradeData } from "@/utilities/fetchData";
 import { getDictionary } from "../../dictionaries/dictionaries";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 interface Params {
       lang: string;
@@ -39,10 +41,13 @@ export default async function Page({params} : { params: Params }) {
                         </div>
                   </div>
                   <div className="m-8 rounded overflow-hidden shadow-lg card-background">
-                        <div className="m-4">
-                              test test test
-
-                              <Link href="/en">EN</Link> / <Link href="/tw">TW</Link>
+                        <div className="m-4 flex justify-between">
+                              <div className="">
+                                    <Link href="https://github.com/weiliang79/princess-connect-simple-calculator"><FontAwesomeIcon icon={faGithub} /> weiliang79/princess-connect-simple-calculator</Link>
+                              </div>
+                              <div className="">
+                                    <Link href="/en">EN</Link> / <Link href="/tw">TW</Link>
+                              </div>
                         </div>
                   </div>
             </div>
