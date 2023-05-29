@@ -1,6 +1,6 @@
 # Princess Connect Simple Calculator
 
-This is a Web Application for calculating Princess Connect Re: Dive Resource Usages develop using [Next.js](https://nextjs.org/).
+This is a Web Application for calculating Princess Connect Re: Dive Resource Usages develop using [Next.js](https://nextjs.org/). The data are followed [Princess Connect Re:Dive TW Version](http://www.princessconnect.so-net.tw/).
 
 ## Features
 
