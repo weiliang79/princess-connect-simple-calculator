@@ -40,7 +40,7 @@ export default async function Page({params} : { params: Params }) {
                   </div>
                   <div className="m-8 rounded overflow-hidden shadow-lg card-background">
                         <div className="m-4">
-                              test
+                              test test test
 
                               <Link href="/en">EN</Link> / <Link href="/tw">TW</Link>
                         </div>
