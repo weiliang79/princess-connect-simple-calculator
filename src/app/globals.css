@@ -27,7 +27,7 @@
 } */
 
 body {
-  /* background-image: url('/static/background.png'); */
+  background-image: url('/static/background.png');
   background-size: cover;
   overflow: hidden;
 }
