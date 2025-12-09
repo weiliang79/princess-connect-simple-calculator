@@ -62,7 +62,7 @@ export default function WeaponUpgradeCalculator({ dict }: Props) {
         id="currentLevel"
         value={currentLevel}
         onChange={(e) => setCurrentLevel(e.target.value)}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       >
         {data.map((data, index) => (
           <option key={index} value={data.current_level.toString()}>
@@ -78,7 +78,7 @@ export default function WeaponUpgradeCalculator({ dict }: Props) {
         id="nextLevel"
         value={nextLevel}
         onChange={(e) => setNextLevel(e.target.value)}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       >
         {data.map((data, index) => (
           <option key={index} value={data.next_level.toString()}>
@@ -94,7 +94,7 @@ export default function WeaponUpgradeCalculator({ dict }: Props) {
         id="stoneToBuy"
         value={stoneToBuy}
         onChange={(e) => setStoneToBuy(parseInt(e.target.value))}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       >
         <option value={1}>1</option>
         <option value={2}>2</option>
@@ -112,7 +112,7 @@ export default function WeaponUpgradeCalculator({ dict }: Props) {
         id="shardLeft"
         value={shardLeft}
         onChange={(e) => setShardLeft(parseInt(e.target.value))}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       ></input>
       <br />
       <table className="">

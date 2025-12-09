@@ -61,7 +61,7 @@ export default function StarUpgradeCalculator({ dict }: Props) {
         id="currentStar"
         value={currentStar?.toString() || ""}
         onChange={(e) => setCurrentStar(parseInt(e.target.value))}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       >
         {data.map((star, index) => (
           <option key={index} value={star.current_star.toString()}>
@@ -77,7 +77,7 @@ export default function StarUpgradeCalculator({ dict }: Props) {
         id="nextStar"
         value={nextStar?.toString() || ""}
         onChange={(e) => setNextStar(parseInt(e.target.value))}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       >
         {data.map((star, index) => (
           <option key={index} value={star.next_star.toString()}>
@@ -93,7 +93,7 @@ export default function StarUpgradeCalculator({ dict }: Props) {
         id="stoneToBuy"
         value={stoneToBuy}
         onChange={(e) => setStoneToBuy(parseInt(e.target.value))}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       >
         <option value={1}>1</option>
         <option value={2}>2</option>
@@ -111,7 +111,7 @@ export default function StarUpgradeCalculator({ dict }: Props) {
         id="shardLeft"
         value={shardLeft}
         onChange={(e) => setShardLeft(parseInt(e.target.value))}
-        className="w-full rounded border p-2"
+        className="w-full rounded-sm border p-2"
       ></input>
       <br />
       <table className="">
