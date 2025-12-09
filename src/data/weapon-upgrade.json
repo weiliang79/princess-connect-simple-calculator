@@ -1,0 +1,170 @@
+[
+  {
+    "current_level": 0,
+    "next_level": 30,
+    "cost_1": 50,
+    "cost_2": 30
+  },
+  {
+    "current_level": 30,
+    "next_level": 50,
+    "cost_1": 10,
+    "cost_2": 5
+  },
+  {
+    "current_level": 50,
+    "next_level": 70,
+    "cost_1": 10,
+    "cost_2": 5
+  },
+  {
+    "current_level": 70,
+    "next_level": 90,
+    "cost_1": 10,
+    "cost_2": 8
+  },
+  {
+    "current_level": 90,
+    "next_level": 110,
+    "cost_1": 10,
+    "cost_2": 10
+  },
+  {
+    "current_level": 110,
+    "next_level": 130,
+    "cost_1": 10,
+    "cost_2": 10
+  },
+  {
+    "current_level": 130,
+    "next_level": 140,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 140,
+    "next_level": 150,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 150,
+    "next_level": 160,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 160,
+    "next_level": 170,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 170,
+    "next_level": 180,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 180,
+    "next_level": 190,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 190,
+    "next_level": 200,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 200,
+    "next_level": 210,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 210,
+    "next_level": 220,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 220,
+    "next_level": 230,
+    "cost_1": 15,
+    "cost_2": 10
+  },
+  {
+    "current_level": 230,
+    "next_level": 240,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 240,
+    "next_level": 250,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 250,
+    "next_level": 260,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 260,
+    "next_level": 270,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 270,
+    "next_level": 280,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 280,
+    "next_level": 290,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 290,
+    "next_level": 300,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 300,
+    "next_level": 310,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 310,
+    "next_level": 320,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 320,
+    "next_level": 330,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 330,
+    "next_level": 340,
+    "cost_1": 5,
+    "cost_2": 10
+  },
+  {
+    "current_level": 340,
+    "next_level": 350,
+    "cost_1": 5,
+    "cost_2": 10
+  }
+]
